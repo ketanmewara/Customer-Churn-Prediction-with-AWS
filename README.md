@@ -1,5 +1,11 @@
 # Customer-Churn-Prediction-with-AWS
 
+## Goal:-
+
+Our main goal is to predict the churn rate from mobile phone company based on customer attributes.<br> 
+If the provider knows that a customer is thinking of leaving, it can offer timely incentives - such as a phone upgrade or perhaps having a new feature activated – and the customer may stick around. Incentives are often much more cost-effective than losing and reacquiring a customer.
+
+
     churn = pd.read_csv("./churn.txt")
     pd.set_option("display.max_columns", 500)
     churn
